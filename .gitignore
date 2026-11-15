@@ -1,0 +1,38 @@
+
+# CMake build output
+/build/
+/build-*/
+/cmake-build-*/
+
+# Compiled binaries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+
+# Generated build files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+compile_commands.json
+
+# VS Code local settings
+.vscode/
+
+# Generated telemetry CSV files at project root
+/*.csv
+
+# Local release test reports
+/reports/
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.log
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
